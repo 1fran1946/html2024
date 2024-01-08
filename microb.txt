@@ -1,1 +1,57 @@
 the file/ today ready study/
+29. Оформление текста
+29.15
+.underline {text-decoration: underline;}
+.line-through {text-decoration: line-through;}
+.overline{text-decoration: overline}
+29.16
+em,i {font-style: normal;}
+.italic {font-style: oblique}
+29.17
+text-transform: lowercase;
+text-transform: uppercase;
+blockquote p {text-transform:capitalize}
+29.18
+  color: #aaaaaa;
+  border-top: 1px solid #aaaaaa;
+  padding-top: 10px;
+30. Селекторы. Знакомство
+1
+<li style="background-color: white;">5</li>
+2.
+li{background-color: white;}
+3.
+.hit{background-color: white;}
+.miss{background-color: red;}
+4.
+.first,.fifth{background-color: white;}
+.third,.fourth{background-color: red;}
+.second{background-color: yellow;}
+5.
+.shooter-1 .first,
+.shooter-1 .third,
+.shooter-1 .fourth,
+.shooter-2 .second,
+.shooter-2 .third,
+.shooter-2 .fourth,
+.shooter-2 .fifth
+{
+  background-color: white;
+}
+.shooter-1 .second,
+.shooter-1 .fifth,
+.shooter-2 .first
+{
+  background-color: red;
+}
+6.
+
+
+
+
+
+
+
+
+
+
