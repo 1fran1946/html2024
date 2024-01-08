@@ -45,6 +45,9 @@ li{background-color: white;}
   background-color: red;
 }
 6.
+li {background-color: white;}
+.fourth + li, .first + li {background-color: red;}
+7.
 
 
 
