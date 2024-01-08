@@ -45,6 +45,68 @@ li{background-color: white;}
   background-color: red;
 }
 6.
+li {background-color: white;}
+.fourth + li, .first + li {background-color: red;}
+7.
+li {background-color: white;}
+.shooter-1 .third + li {background-color: red;}
+.shooter-2 .first + li {background-color: red;}
+.shooter-2 .third + li {background-color: yellow;}
+8.
+.places > li {
+  border-bottom: 2px solid #cccccc;
+}
+
+.places > li > span {
+  font-weight: bold;
+}
+9.
+li {background-color: white;}
+li:first-child {background-color: red;}
+li:last-child {background-color: yellow;}
+10.
+li {background-color: white;}
+li:nth-child(3) {background-color: red;}
+li:nth-child(4) {background-color: red;}
+11.
+li {background-color: white;}
+.shooter-1 li:nth-child(2) {background-color: red;}
+.shooter-1 li:nth-child(5) {background-color: red;}
+.shooter-2 li:nth-child(1) {background-color: red;}
+12.
+table {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+tr:hover {background-color: #fcf8e3;
+}
+
+strong:hover {color: #0088cc;
+}
+13.
+em {
+  display: none;
+}
+tr:hover em {display: inline;}
+tr:hover strong {color:#0088cc;}
+14.
+a:link{color:black;}
+a:visited{color:#cccccc;}
+a:active{color:green;}
+15.
+form input:focus {
+  border-color: #0088cc;
+}
+16.
+input:required {background-color: #fcf8e3;}
+#academy-password {background-color: #f2dede;}
+input [type='submit']{border-color: green;}
+17.
+#fullname {background-color: #fcf8e3;}
+#year{width:100px;}
+18.
+
+31.Наследование и каскадирование
 
 
 
